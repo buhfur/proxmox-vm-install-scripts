@@ -9,7 +9,7 @@ wait
 if [ ! -d /mnt/media ]; then
 	mkdir /mnt/media
   echo -en "/mnt/media directory created"
-else;
+else
         echo -en "\nERROR: /mnt/media already exists";
 fi
 wait 
