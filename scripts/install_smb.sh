@@ -21,7 +21,7 @@ password="youronyourown";
 if [ -f /home/$USER/.smbcredentials ]; then
 	echo -en "username=${username}\npassword=${password}" > /home/$USER/.smbcredentials
   echo -en "\n/home/$USER/.smbcredentials was created successfully\n"
-else;
+else
         echo -en "\nERROR: /home/$USER/.smbcredentials already exists or was not able to be created\n"
 fi
 wait 
